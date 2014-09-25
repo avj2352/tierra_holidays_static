@@ -79,6 +79,9 @@ header > div.col-lg-10 > h1 {
 }
 .left {
   text-align: right;
+}
+#quotation > .row.left > .col-lg-3 {
+  text-align: left;
   margin-bottom: -50px;
 }
 #quotation {
@@ -109,5 +112,9 @@ header > div.col-lg-10 > h1 {
   #quotation > .row.right > .col-lg-12 {
     text-align: left;
     margin-bottom: 0px;
+  }
+  #quotation > .row.left > .col-lg-3 {
+    text-align: right;
+    margin-bottom: -50px;
   }
 }
