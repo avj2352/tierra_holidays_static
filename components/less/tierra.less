@@ -1,0 +1,96 @@
+@import "colors.less";
+@import "mixins.less";
+
+body{
+	color: #000;
+	background: @white url(../img/pattern.jpg) repeat;
+}
+
+.container{
+	 // .simple-border(@gold);
+	background-color: @white;
+	padding: 25px;
+	.box-shadow(0px, 0px, 10px, 5px, 0.2);
+}
+
+h2.logo-brand{
+	 // .simple-border(@red) ;
+	color: @gold; 
+	position: relative;
+	font-size: 1.7em;
+	margin-top: 5px;
+	left:-16px;
+}
+
+h1{
+	font-size: 2em;
+}
+
+small.subtitle{
+	// .simple-border(@red);
+	font-size: 14px;
+	color: @orange;
+	position: relative;
+	left: 26px;
+}
+
+header > div.col-lg-2 {
+	// .simple-border(@red);	
+}
+
+header > div.col-lg-10 {
+	// .simple-border(@red);	
+	position: relative;
+	top: 0px;
+}
+
+header > div.col-lg-10{
+	left: -30px;
+}
+
+header > div.col-lg-10 > h1{
+	font-size: 1.8em;
+	color: @grey;
+}
+/*Navbar scripts start at Line: 3577*/
+/* Navbar script comes here */
+#myNav{
+	font-size: 15px;
+	a{
+	color: @black;
+	:hover{
+			color: @white;
+			background-color: none;
+		}
+	}
+}/* Navbar script ends  here */
+
+#MainContent{
+	font-size: 16px;
+}
+
+.goldColor{
+	color: @gold;
+}
+
+
+
+
+/* Media Queries for responsiveness*/
+
+@media (min-width: 1200px){
+	header > div.col-lg-10 {
+	top: 90px;
+	}	
+}
+
+@media (max-width: 680px){
+	header > div.col-lg-2 {
+	position: relative;
+	// .simple-border(@red);
+	left: 40%;
+	}	
+	header > div.col-lg-10 {
+	left: 5%;
+	}	
+}
