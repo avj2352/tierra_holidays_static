@@ -1801,7 +1801,7 @@ td.visible-print,th.visible-print{display:table-cell!important}}
 .fa-share-alt-square:before{content:"\f1e1"}
 .fa-bomb:before{content:"\f1e2"}
 body{color:#000;background:url(../img/pattern.jpg) #fff}
-.container{background-color:#fff;padding:25px;-webkit-box-shadow:0 0 10px 5px rgba(0,0,0,.2);-moz-box-shadow:0 0 10px 5px rgba(0,0,0,.2);box-shadow:0 0 10px 5px rgba(0,0,0,.2)}
+.container{background-color:#fff;padding:10px 45px;-webkit-box-shadow:0 0 10px 5px rgba(0,0,0,.2);-moz-box-shadow:0 0 10px 5px rgba(0,0,0,.2);box-shadow:0 0 10px 5px rgba(0,0,0,.2)}
 h2.logo-brand{color:#f59737;position:relative;font-size:1.7em;margin-top:5px;left:-16px}
 h1{font-size:2em}
 small.subtitle{font-size:14px;color:#e66424;position:relative;left:26px}
