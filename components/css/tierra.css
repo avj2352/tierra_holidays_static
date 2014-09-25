@@ -55,6 +55,37 @@ header > div.col-lg-10 > h1 {
 .goldColor {
   color: #f59737;
 }
+/* Carousel Scripts here */
+#myCarousel {
+  height: 352px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+#myCarousel .carousel-indicators {
+  bottom: 10px;
+}
+/* Carousel Scripts ends */
+/* Block quote CSS */
+.center {
+  text-align: justify;
+}
+.right {
+  text-align: left;
+  margin-bottom: -50px;
+}
+.left {
+  text-align: right;
+  margin-bottom: -50px;
+}
+#quotation {
+  border-left: 2px solid #e66424;
+  padding-left: 10px;
+}
+#quotation font {
+  color: #e66424;
+  font-size: 70px;
+}
+/* Block quote CSS */
 /* Media Queries for responsiveness*/
 @media (min-width: 1200px) {
   header > div.col-lg-10 {

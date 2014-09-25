@@ -19,10 +19,18 @@ https://github.com/avj2352/tierra_holidays_static
 
 7. Add colors.less, mixins.less, tierra.less file - Done
 
+----------------------------------------------------------------------------------
+
 8. Add Navigation. Issue with Navigation Placement - Correction
 
 9. Add Carousel - Done
 
 10. Add Carousel Images - Done
+
+-----------------------------------------------------------------------------------
+
+88. Added Blockquote Less - Correction
+
+-----------------------------------------------------------------------------------
 
 
