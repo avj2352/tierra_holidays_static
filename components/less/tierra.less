@@ -86,14 +86,21 @@ header > div.col-lg-10 > h1{
 /* Carousel Scripts ends */
 
 /* Block quote CSS */
-
 .center {
      text-align: justify;
 }
+
+
 .right {
     text-align: left;
     margin-bottom: -50px;
-}  
+}
+
+#quotation > .row.right > .col-lg-12{
+	 text-align: left;
+    margin-bottom: -50px;
+}
+
 .left {
     // margin-top: -30px;
      text-align: right;
@@ -110,10 +117,6 @@ header > div.col-lg-10 > h1{
 	font-size: 70px;
 }
 /* Block quote CSS */
-
-
-
-
 
 
 /* Media Queries for responsiveness*/
@@ -133,4 +136,11 @@ header > div.col-lg-10 > h1{
 	header > div.col-lg-10 {
 	left: 5%;
 	}	
+}
+
+@media(max-width: 1200px){
+	#quotation > .row.right > .col-lg-12{
+	 text-align: left;
+    margin-bottom: 0px;
+}
 }

@@ -1815,10 +1815,11 @@ header>div.col-lg-10>h1{font-size:1.8em;color:#7c7c7c}
 #myCarousel{height:352px;overflow:hidden;margin-bottom:10px}
 #myCarousel .carousel-indicators{bottom:10px}
 .center{text-align:justify}
-.right{text-align:left;margin-bottom:-50px}
+#quotation>.row.right>.col-lg-12,.right{text-align:left;margin-bottom:-50px}
 .left{text-align:right;margin-bottom:-50px}
 #quotation{border-left:2px solid #e66424;padding-left:10px}
 #quotation font{color:#e66424;font-size:70px}
 @media (min-width:1200px){header>div.col-lg-10{top:90px}}
 @media (max-width:680px){header>div.col-lg-2{position:relative;left:40%}
 header>div.col-lg-10{left:5%}}
+@media (max-width:1200px){#quotation>.row.right>.col-lg-12{text-align:left;margin-bottom:0}}

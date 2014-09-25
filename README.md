@@ -29,7 +29,7 @@ https://github.com/avj2352/tierra_holidays_static
 
 -----------------------------------------------------------------------------------
 
-88. Added Blockquote Less - Correction
+88. Added Blockquote Less - Done
 
 -----------------------------------------------------------------------------------
 

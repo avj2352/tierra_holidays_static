@@ -73,6 +73,10 @@ header > div.col-lg-10 > h1 {
   text-align: left;
   margin-bottom: -50px;
 }
+#quotation > .row.right > .col-lg-12 {
+  text-align: left;
+  margin-bottom: -50px;
+}
 .left {
   text-align: right;
   margin-bottom: -50px;
@@ -99,5 +103,11 @@ header > div.col-lg-10 > h1 {
   }
   header > div.col-lg-10 {
     left: 5%;
+  }
+}
+@media (max-width: 1200px) {
+  #quotation > .row.right > .col-lg-12 {
+    text-align: left;
+    margin-bottom: 0px;
   }
 }
