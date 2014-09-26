@@ -21,7 +21,7 @@ https://github.com/avj2352/tierra_holidays_static
 
 ----------------------------------------------------------------------------------
 
-8. Add Navigation. Issue with Navigation Placement - Correction
+8. Add Navigation. Issue with Navigation Placement - Done
 
 9. Add Carousel - Done
 

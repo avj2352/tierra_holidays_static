@@ -1839,11 +1839,15 @@ header>div.col-lg-10>h1{font-size:1.8em;color:#7c7c7c}
 header>div.col-lg-10{left:5%}}
 @media (max-width:1200px){#quotation>.row.right>.col-lg-12{text-align:left;margin-bottom:0}
 #quotation>.row.left>.col-lg-3{text-align:right;margin-bottom:-50px}}
-@media (max-width:1200px){#sidebar .article-header .thumbnail-icon1,#sidebar .article-header .thumbnail-icon2{right:-180px}
+@media (max-width:1200px){.carousel-control{display:none}
+#sidebar .article-header .thumbnail-icon1,#sidebar .article-header .thumbnail-icon2{right:-180px}
 #sidebar .article-header .thumbnail-icon3{right:-190px}}
-@media (max-width:992px){#sidebar .article-header .thumbnail-icon1,#sidebar .article-header .thumbnail-icon2{right:-125px}
+@media (max-width:992px){.carousel-control{display:none}
+#sidebar .article-header .thumbnail-icon1,#sidebar .article-header .thumbnail-icon2{right:-125px}
 #sidebar .article-header .thumbnail-icon3{right:-135px}}
-@media (max-width:768px){#sidebar .article-header .thumbnail-icon1,#sidebar .article-header .thumbnail-icon2{right:-95px}
+@media (max-width:768px){.carousel-control{display:none}
+#sidebar .article-header .thumbnail-icon1,#sidebar .article-header .thumbnail-icon2{right:-95px}
 #sidebar .article-header .thumbnail-icon3{right:-105px}}
-@media (max-width:560px){#sidebar .article-header .thumbnail-icon1,#sidebar .article-header .thumbnail-icon2{right:-55px}
+@media (max-width:560px){.carousel-control{display:none}
+#sidebar .article-header .thumbnail-icon1,#sidebar .article-header .thumbnail-icon2{right:-55px}
 #sidebar .article-header .thumbnail-icon3{right:-65px}}
