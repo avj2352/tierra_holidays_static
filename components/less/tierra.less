@@ -1,7 +1,22 @@
 @import "colors.less";
 @import "mixins.less";
 
+.weblysleek{
+	font-family: 'WeblySleekUI';
+}
+
+.brushscript{
+	font-family: 'Brushscript';
+}
+
+h1.brushscript{
+	font-size: 20px;
+	color: @grey;
+}
+
 body{
+	font-family: 'Verdana';
+	font-size: 14px;
 	color: #000;
 	background: @white url(../img/pattern.jpg) repeat;
 }
@@ -15,11 +30,13 @@ body{
 
 h2.logo-brand{
 	 // .simple-border(@red) ;
+	font-family: 'Eucrosia'; 
 	color: @gold; 
 	position: relative;
-	font-size: 1.7em;
+	font-size: 2.8em;
 	margin-top: 5px;
-	left:-16px;
+	left:-30px;
+	top:-10px;
 }
 
 h1{
@@ -28,10 +45,13 @@ h1{
 
 small.subtitle{
 	// .simple-border(@red);
-	font-size: 14px;
+	font-family: 'Corbel';
+	font-size: 10px;
+	letter-spacing: 3px;
+	top: -30px;
 	color: @orange;
 	position: relative;
-	left: 26px;
+	left: 25px;
 }
 
 header > div.col-lg-2 {
@@ -66,7 +86,7 @@ header > div.col-lg-10 > h1{
 }/* Navbar script ends  here */
 
 #MainContent{
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .goldColor{
@@ -140,6 +160,22 @@ header > div.col-lg-10 > h1{
 	height: 50px;
 }
 
+#sidebar .article-body h4{
+	color: @grey;
+}
+
+#sidebar .gold{
+	color: @gold;
+}
+
+#sidebar .grey{
+	color: @grey;
+}
+
+#sidebar .orange{
+	color: @orange;
+}
+
 #sidebar .article-header .bookmark{
 	background: url(../img/yellow_stripes.png) 5px -5px no-repeat;
 	height: 35px;
@@ -174,7 +210,7 @@ header > div.col-lg-10 > h1{
 #sidebar .article-header .sidebar-title{
 	color: @orange;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 16px;
 }
 
 #sidebar .article-body{
@@ -228,6 +264,59 @@ header > div.col-lg-10 > h1{
  	margin: 0;
 
 }
+
+.bannerSection{
+	.box-shadow(@top:0; @right:-10px; @bottom:15px; @left:5px; @percent:0.2);
+}
+
+.col-lg-12.banner{
+	color:@gold;
+	font-weight: bolder;
+}
+
+.bottomSection{
+	// .simple-border(@gold);
+	padding-left: 60px;
+}
+
+.bottomSection ul{
+	list-style: none;
+	margin: 0;
+	padding: 0px 25px;
+	li{
+	// .simple-border(@bluish);
+		div{
+			margin: 0px 25px 10px;
+			img{
+				position: relative;
+				left: -15px;
+			}
+			p{
+				font-family: verdana;
+				font-size: 12px;
+				.btn-block{
+					font-family: 'Brushscript';
+					font-size:20px;
+					font-weight:lighter; 
+				}
+			}
+		}
+	}
+}
+
+footer{
+	div.footer-row1{
+		font-family: verdana;
+		color:@bluish;
+	}
+	div.footer-row2{
+		font-family: verdana;
+		font-weight: bold;
+		color:@gold;
+	}
+}
+
+
 
 /* Media Queries for responsiveness*/
 @media (min-width: 1200px){

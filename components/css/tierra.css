@@ -1,4 +1,36 @@
+@font-face {
+  font-family: 'Brushscript';
+  src: url('../fonts/BrushScriptStd.otf');
+}
+@font-face {
+  font-family: 'WeblySleekUIL';
+  src: url('../fonts/WEBLYSLEEKUIL.ttf');
+}
+@font-face {
+  font-family: 'WeblySleekUILI';
+  src: url('../fonts/WEBLYSLEEKUILI.ttf');
+}
+@font-face {
+  font-family: 'Corbel';
+  src: url('../fonts/CORBEL.ttf');
+}
+@font-face {
+  font-family: 'Eucrosia';
+  src: url('../fonts/UPCEL.ttf');
+}
+.weblysleek {
+  font-family: 'WeblySleekUI';
+}
+.brushscript {
+  font-family: 'Brushscript';
+}
+h1.brushscript {
+  font-size: 20px;
+  color: #7c7c7c;
+}
 body {
+  font-family: 'Verdana';
+  font-size: 14px;
   color: #000;
   background: #ffffff url(../img/pattern.jpg) repeat;
 }
@@ -10,20 +42,25 @@ body {
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
 }
 h2.logo-brand {
+  font-family: 'Eucrosia';
   color: #f59737;
   position: relative;
-  font-size: 1.7em;
+  font-size: 2.8em;
   margin-top: 5px;
-  left: -16px;
+  left: -30px;
+  top: -10px;
 }
 h1 {
   font-size: 2em;
 }
 small.subtitle {
-  font-size: 14px;
+  font-family: 'Corbel';
+  font-size: 10px;
+  letter-spacing: 3px;
+  top: -30px;
   color: #e66424;
   position: relative;
-  left: 26px;
+  left: 25px;
 }
 header > div.col-lg-10 {
   position: relative;
@@ -50,7 +87,7 @@ header > div.col-lg-10 > h1 {
 }
 /* Navbar script ends  here */
 #MainContent {
-  font-size: 16px;
+  font-size: 14px;
 }
 .goldColor {
   color: #f59737;
@@ -110,6 +147,18 @@ header > div.col-lg-10 > h1 {
   margin-bottom: 0px;
   height: 50px;
 }
+#sidebar .article-body h4 {
+  color: #7c7c7c;
+}
+#sidebar .gold {
+  color: #f59737;
+}
+#sidebar .grey {
+  color: #7c7c7c;
+}
+#sidebar .orange {
+  color: #e66424;
+}
 #sidebar .article-header .bookmark {
   background: url(../img/yellow_stripes.png) 5px -5px no-repeat;
   height: 35px;
@@ -137,7 +186,7 @@ header > div.col-lg-10 > h1 {
 #sidebar .article-header .sidebar-title {
   color: #e66424;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
 }
 #sidebar .article-body {
   position: relative;
@@ -173,6 +222,48 @@ header > div.col-lg-10 > h1 {
 #sidebar .article-body .article-list li {
   padding: 0;
   margin: 0;
+}
+.bannerSection {
+  -webkit-box-shadow: 0 -10px 15px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 -10px 15px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 -10px 15px 5px rgba(0, 0, 0, 0.2);
+}
+.col-lg-12.banner {
+  color: #f59737;
+  font-weight: bolder;
+}
+.bottomSection {
+  padding-left: 60px;
+}
+.bottomSection ul {
+  list-style: none;
+  margin: 0;
+  padding: 0px 25px;
+}
+.bottomSection ul li div {
+  margin: 0px 25px 10px;
+}
+.bottomSection ul li div img {
+  position: relative;
+  left: -15px;
+}
+.bottomSection ul li div p {
+  font-family: verdana;
+  font-size: 12px;
+}
+.bottomSection ul li div p .btn-block {
+  font-family: 'Brushscript';
+  font-size: 20px;
+  font-weight: lighter;
+}
+footer div.footer-row1 {
+  font-family: verdana;
+  color: #33a3dc;
+}
+footer div.footer-row2 {
+  font-family: verdana;
+  font-weight: bold;
+  color: #f59737;
 }
 /* Media Queries for responsiveness*/
 @media (min-width: 1200px) {
