@@ -134,15 +134,24 @@ header > div.col-lg-10 > h1{
 }
 
 #sidebar .article-header{
-	padding-bottom: 30px;	
+		
 }
 
 #sidebar .article-header .bookmark{
 	background: url(../img/yellow_stripes.png) 5px -5px no-repeat;
 	height: 77px;
-	left: -7px;
+	left: -6px;
 	top: -10px;
 }
+
+#sidebar .article-header .thumbnail-icon1{
+ 	// .simple-border(@gold);			
+	background: url(../img/theme_thmb.png) 5px -5px no-repeat;
+	height: 77px;
+	right: -45px;
+	top: -30px;
+}
+
 
 
 
@@ -175,5 +184,27 @@ header > div.col-lg-10 > h1{
 	#quotation > .row.left > .col-lg-3{
 	 text-align: right;
      margin-bottom: -50px;
+	}
+}
+
+/* Positioning of Sidebar Icons */
+@media(max-width: 1200px){
+	#sidebar .article-header .thumbnail-icon1{
+ 	// .simple-border(@gold);			
+	right: -180px;
+	}
+}
+
+@media(max-width: 992px){
+	#sidebar .article-header .thumbnail-icon1{
+ 	// .simple-border(@gold);			
+	right: -125px;
+	}
+}
+
+@media(max-width: 768px){
+	#sidebar .article-header .thumbnail-icon1{
+ 	// .simple-border(@gold);			
+	right: -75px;
 	}
 }

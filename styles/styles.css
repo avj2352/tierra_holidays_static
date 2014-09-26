@@ -1821,10 +1821,13 @@ header>div.col-lg-10>h1{font-size:1.8em;color:#7c7c7c}
 #quotation{border-left:2px solid #e66424;padding-left:10px}
 #quotation font{color:#e66424;font-size:70px}
 #sidebar .col-lg-12{-webkit-box-shadow:0 3px 5px 5px rgba(0,0,0,.2);-moz-box-shadow:0 3px 5px 5px rgba(0,0,0,.2);box-shadow:0 3px 5px 5px rgba(0,0,0,.2);margin:0 0 45px;padding-top:10px;padding-bottom:10px}
-#sidebar .article-header{padding-bottom:30px}
-#sidebar .article-header .bookmark{background:url(../img/yellow_stripes.png) 5px -5px no-repeat;height:77px;left:-7px;top:-10px}
+#sidebar .article-header .bookmark{background:url(../img/yellow_stripes.png) 5px -5px no-repeat;height:77px;left:-6px;top:-10px}
+#sidebar .article-header .thumbnail-icon1{background:url(../img/theme_thmb.png) 5px -5px no-repeat;height:77px;right:-45px;top:-30px}
 @media (min-width:1200px){header>div.col-lg-10{top:90px}}
 @media (max-width:680px){header>div.col-lg-2{position:relative;left:40%}
 header>div.col-lg-10{left:5%}}
 @media (max-width:1200px){#quotation>.row.right>.col-lg-12{text-align:left;margin-bottom:0}
 #quotation>.row.left>.col-lg-3{text-align:right;margin-bottom:-50px}}
+@media (max-width:1200px){#sidebar .article-header .thumbnail-icon1{right:-180px}}
+@media (max-width:992px){#sidebar .article-header .thumbnail-icon1{right:-125px}}
+@media (max-width:768px){#sidebar .article-header .thumbnail-icon1{right:-75px}}
