@@ -45,10 +45,10 @@ h2.logo-brand {
   font-family: 'Eucrosia';
   color: #f59737;
   position: relative;
-  font-size: 2.8em;
+  font-size: 2em;
   margin-top: 5px;
   left: -30px;
-  top: -10px;
+  top: -2px;
 }
 h1 {
   font-size: 2em;
@@ -57,7 +57,7 @@ small.subtitle {
   font-family: 'Corbel';
   font-size: 10px;
   letter-spacing: 3px;
-  top: -30px;
+  top: -20px;
   color: #e66424;
   position: relative;
   left: 25px;
@@ -255,6 +255,31 @@ header > div.col-lg-10 > h1 {
   font-family: 'Brushscript';
   font-size: 20px;
   font-weight: lighter;
+}
+footer #footer {
+  background-color: #f59737;
+  -webkit-box-shadow: inset 0px 30px 26px -20px rgba(179, 70, 0, 0.6);
+  -moz-box-shadow: inset 0px 30px 26px -20px rgba(179, 70, 0, 0.6);
+  box-shadow: inset 0px 30px 26px -20px rgba(179, 70, 20, 0.6);
+  height: 40px;
+}
+footer #footer ul {
+  list-style: none;
+}
+footer #footer ul li {
+  float: left;
+  color: #ffffff;
+  padding: 5px;
+  margin: 5px 5px 0px;
+}
+footer #footer ul li i.fa {
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #e66424;
+  cursor: pointer;
+  font-size: 20px;
+}
+footer #footer ul li a {
+  color: #ffffff;
 }
 footer div.footer-row1 {
   font-family: verdana;

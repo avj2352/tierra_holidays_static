@@ -28,15 +28,19 @@ body{
 	.box-shadow(0px, 0px, 10px, 5px, 0.2);
 }
 
+
+
 h2.logo-brand{
 	 // .simple-border(@red) ;
 	font-family: 'Eucrosia'; 
 	color: @gold; 
 	position: relative;
-	font-size: 2.8em;
+	font-size: 2em;
 	margin-top: 5px;
 	left:-30px;
-	top:-10px;
+	top:-2px;
+
+
 }
 
 h1{
@@ -48,7 +52,7 @@ small.subtitle{
 	font-family: 'Corbel';
 	font-size: 10px;
 	letter-spacing: 3px;
-	top: -30px;
+	top: -20px;
 	color: @orange;
 	position: relative;
 	left: 25px;
@@ -305,6 +309,36 @@ header > div.col-lg-10 > h1{
 }
 
 footer{
+	#footer{
+		// .simple-border(@gold);
+		background-color: @gold;
+		// Gradient
+		-webkit-box-shadow: inset 0px 30px 26px -20px rgba(179,70,0,0.6);
+		-moz-box-shadow: inset 0px 30px 26px -20px rgba(179,70,0,0.6);
+		box-shadow: inset 0px 30px 26px -20px rgba(179,70,20,0.6);
+		// Gradient
+		height: 40px;
+		ul{
+			list-style: none;
+			li{
+				float: left;
+				color: @white;
+				padding: 5px;
+				margin: 5px 5px 0px;
+				i.fa{					
+					color: @white;
+					text-shadow: 2px 2px 2px @orange;
+					cursor: pointer;
+					font-size: 20px;
+					
+				}
+				a{
+					color: @white;
+
+				}
+			}
+		}
+	}
 	div.footer-row1{
 		font-family: verdana;
 		color:@bluish;

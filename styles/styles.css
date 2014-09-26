@@ -1810,9 +1810,9 @@ td.visible-print,th.visible-print{display:table-cell!important}}
 h1.brushscript{font-size:20px;color:#7c7c7c}
 body{font-family:Verdana;font-size:14px;color:#000;background:url(../img/pattern.jpg) #fff}
 .container{background-color:#fff;padding:10px 45px;-webkit-box-shadow:0 0 10px 5px rgba(0,0,0,.2);-moz-box-shadow:0 0 10px 5px rgba(0,0,0,.2);box-shadow:0 0 10px 5px rgba(0,0,0,.2)}
-h2.logo-brand{font-family:Eucrosia;color:#f59737;position:relative;font-size:2.8em;margin-top:5px;left:-30px;top:-10px}
+h2.logo-brand{font-family:Eucrosia;color:#f59737;position:relative;font-size:2em;margin-top:5px;left:-30px;top:-2px}
 h1{font-size:2em}
-small.subtitle{font-family:Corbel;font-size:10px;letter-spacing:3px;top:-30px;color:#e66424;position:relative;left:25px}
+small.subtitle{font-family:Corbel;font-size:10px;letter-spacing:3px;top:-20px;color:#e66424;position:relative;left:25px}
 header>div.col-lg-10{position:relative;top:0;left:-30px}
 header>div.col-lg-10>h1{font-size:1.8em;color:#7c7c7c}
 #myNav{font-size:15px}
@@ -1854,6 +1854,11 @@ header>div.col-lg-10>h1{font-size:1.8em;color:#7c7c7c}
 .bottomSection ul li div img{position:relative;left:-15px}
 .bottomSection ul li div p{font-family:verdana;font-size:12px}
 .bottomSection ul li div p .btn-block{font-family:Brushscript;font-size:20px;font-weight:lighter}
+footer #footer{background-color:#f59737;-webkit-box-shadow:inset 0 30px 26px -20px rgba(179,70,0,.6);-moz-box-shadow:inset 0 30px 26px -20px rgba(179,70,0,.6);box-shadow:inset 0 30px 26px -20px rgba(179,70,20,.6);height:40px}
+footer #footer ul{list-style:none}
+footer #footer ul li{float:left;color:#fff;padding:5px;margin:5px 5px 0}
+footer #footer ul li i.fa{color:#fff;text-shadow:2px 2px 2px #e66424;cursor:pointer;font-size:20px}
+footer #footer ul li a{color:#fff}
 footer div.footer-row1{font-family:verdana;color:#33a3dc}
 footer div.footer-row2{font-family:verdana;font-weight:700;color:#f59737}
 @media (min-width:1200px){header>div.col-lg-10{top:90px}}
