@@ -128,9 +128,10 @@ header > div.col-lg-10 > h1{
 
 #sidebar .col-lg-12{
 	.box-shadow(0.2);
+	.top-rounded-effect(20px;0px);
 	margin: 0px 0px 45px;
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 }
 
 #sidebar .article-header{
@@ -141,7 +142,7 @@ header > div.col-lg-10 > h1{
 
 #sidebar .article-header .bookmark{
 	background: url(../img/yellow_stripes.png) 5px -5px no-repeat;
-	height: 77px;
+	height: 35px;
 	left: -6px;
 	top: -10px;
 }
@@ -176,13 +177,23 @@ header > div.col-lg-10 > h1{
 	font-size: 20px;
 }
 
-#sidebar .article-body .article-list li div{
- 	// .simple-border(@gold);			
-	padding: 10px;
+#sidebar .article-body{
+	position: relative;
+	top:-40px;
+	margin:0;
+	padding: 0;
 }
 
 #sidebar .article-body h4{
-	margin:0;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0;
+
+}
+
+#sidebar .article-body .article-list li div{
+ 	// .simple-border(@gold);			
+	padding: 10px;
 }
 
 #sidebar #holidays-list p{
